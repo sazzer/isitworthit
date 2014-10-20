@@ -129,6 +129,12 @@
                 <version>4.11</version>
                 <scope>test</scope>
             </dependency>
+            <dependency>
+                <groupId>org.jetbrains.spek</groupId>
+                <artifactId>spek</artifactId>
+                <version>0.1.142</version>
+                <scope>test</scope>
+            </dependency>
             <!-- Validation -->
             <dependency>
                 <groupId>javax.validation</groupId>
@@ -250,6 +256,10 @@
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.jetbrains.spek</groupId>
+            <artifactId>spek</artifactId>
         </dependency>
         <!-- Validation -->
         <dependency>
